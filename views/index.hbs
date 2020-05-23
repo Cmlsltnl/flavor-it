@@ -1,20 +1,19 @@
 <div class="top-home">
   <div class="title-home">
-    <h1>FLAVOR IT</h1>
-    <h2>A real food lovers' community</h2>
-    <p>FLAVOR IT is a place for food lovers to share their favorite recipes&#10;and follow other food lovers.&#10;Here
-      you
-      can connect all food lovers in the world.</p>
+    <h1>Veqan / Vegeterian Reseptləri</h1>
+    <h2>Platforma Azərbaycanda yaşayan veqan/vegetarianların bir-birlərinə dəstək olmaları, 
+bildikləri xüsusi yemək reseptlərini paylaşmaları və əl-ələ verərək daha gözəl bir cəmiyyət yaratmaları üçün nəzərdə tutulmuşdur.</h2>
+    <p></p>
     {{#if loggedIn}}
-    <a class="btn btn-outline-info" href="/recipe/create">Create Recipe</a>
+    <a class="btn btn-outline-info" href="/recipe/create">Resept Əlavə Et</a>
     {{else}}
-    <a class="btn btn-outline-danger" href="/auth/signup">Create your account</a>
+    <a class="btn btn-outline-danger" href="/auth/signup">Qeydiyyatdan Keç</a>
     {{/if}}
   </div>
 </div>
 <br>
 <div class="title">
-  <h1>Top 10 Popular Recipes</h1>
+  <h1>Ən məşhur 10 resept</h1>
 </div>
 <div class="flex-container">
   {{#each recipes}}
